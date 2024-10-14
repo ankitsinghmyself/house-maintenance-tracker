@@ -3,6 +3,8 @@ import mongoose from 'mongoose';
 import authRoutes from './routes/authRoutes';
 import paymentRoutes from './routes/paymentRoutes';
 import expenditureRoutes from './routes/expenditureRoutes';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const app = express();
 

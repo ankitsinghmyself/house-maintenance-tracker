@@ -20,6 +20,10 @@ The House Maintenance Tracker is a web application that helps house owners manag
 
 ## API Endpoints
 
+ All requests that require authentication must include the following header:
+
+- **Authorization**: `Bearer your_jwt_token_here`
+
 ### Authentication
 
 - **POST** `http://localhost:5000/api/auth/register`: Register a new user
