@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Environment Variables
+.env
+
+# Build output
+dist/
+build/
+
+# Logs
+logs
+*.log
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# TypeScript
+*.tsbuildinfo
